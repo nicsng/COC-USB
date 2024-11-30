@@ -9,7 +9,9 @@ Raspberry Pi (tested on Raspberry Pi Zero 2W)
 Raspberry Pi OS
 Python 3.11 or higher
 
-# Installation
+# Setup
+## Method 1
+1. 
 1. Clone the Repository
 ```
 git clone https://github.com/nicsng/COC-USB.git
@@ -29,15 +31,30 @@ pip install -r requirements.txt
 
 4. Copy files from the repo into their respective folders
    Windows
-   ```
-   cp windows/composite_usb /usr/bin/composite_usb
-   cp windows/ctf_gadget.server -> /etc/systemd/system/
-   cp windows/ctf_gadget2.server -> /etc/systemd/system/   
-   ```
-   
-   Linux
-   ```
-   cp linux/composite_usb -> /usr/bin/composite_usb
-   cp linux/ctf_gadget.server -> /etc/systemd/system/
-   cp linux/ctf_gadget2.server -> /etc/systemd/system/
-   ```
+```
+cp windows/composite_usb /usr/bin/composite_usb
+cp windows/ctf_gadget.server -> /etc/systemd/system/
+cp windows/ctf_gadget2.server -> /etc/systemd/system/   
+```
+
+Linux
+```
+cp linux/composite_usb -> /usr/bin/composite_usb
+cp linux/ctf_gadget.server -> /etc/systemd/system/
+cp linux/ctf_gadget2.server -> /etc/systemd/system/
+```
+
+## Method 2: Raspberry Pi Imager
+1. [Download Raspberry Pi Imager.](https://www.raspberrypi.com/software/)
+
+2. Select Your Hardware
+Choose Raspberry Pi Zero 2W.
+
+3. Choose an Operating System
+For Windows or Linux, select "Custom OS" and download the required OS.
+
+4. Select Your microSD Card
+Insert and choose the correct microSD card.
+
+5. Flash the OS
+Flash the downloaded OS image to the microSD card.
