@@ -31,16 +31,16 @@ pip install -r requirements.txt
 4. Copy files from the repo into their respective folders
    Windows
 ```
-cp windows/composite_usb /usr/bin/composite_usb
-cp windows/ctf_gadget.server -> /etc/systemd/system/
-cp windows/ctf_gadget2.server -> /etc/systemd/system/   
+sudo cp windows/composite_usb /usr/bin/composite_usb
+sudo cp windows/ctf_gadget.service /etc/systemd/system/
+sudo cp windows/ctf_gadget2.service /etc/systemd/system/
 ```
 
 Linux
 ```
-cp linux/composite_usb -> /usr/bin/composite_usb
-cp linux/ctf_gadget.server -> /etc/systemd/system/
-cp linux/ctf_gadget2.server -> /etc/systemd/system/
+sudo cp linux/composite_usb /usr/bin/composite_usb
+sudo cp linux/ctf_gadget.service /etc/systemd/system/
+sudo cp linux/ctf_gadget2.service /etc/systemd/system/
 ```
 
 ## Method 2: Raspberry Pi Imager
