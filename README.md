@@ -11,7 +11,6 @@ Python 3.11 or higher
 
 # Setup
 ## Method 1
-1. 
 1. Clone the Repository
 ```
 git clone https://github.com/nicsng/COC-USB.git
