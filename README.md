@@ -1,5 +1,5 @@
 # COC-USB
-A innovative way to maintain integrity for Chain of Custody  
+Maintaining the chain of custody for digital evidence is a critical challenge in forensic investigations, particularly in ensuring the confidentiality, integrity, and availability of the evidence. This research aims to present a proof of concept demonstrating that a disk storage device can accurately track its usage while preserving the confidentiality of sensitive information, maintaining the integrity of the evidence, and ensuring its availability for analysis. The proposed solution seeks to strengthen the reliability and security of digital forensic processes.
 
 # Prerequisites
 ## Hardware
