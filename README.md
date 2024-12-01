@@ -50,11 +50,13 @@ cp linux/ctf_gadget2.server -> /etc/systemd/system/
 2. Select Your Hardware
 Choose Raspberry Pi Zero 2W.
 
-3. Choose an Operating System
+3. Download the Operating System you are targeting
 For Windows or Linux, select "Custom OS" and download the required OS.
+[Windows](https://github.com/nicsng/COC-USB/releases/tag/Windows)
+[Linux](https://github.com/nicsng/COC-USB/releases/tag/Linux)
 
-4. Select Your microSD Card
+5. Select Your microSD Card
 Insert and choose the correct microSD card.
 
-5. Flash the OS
+6. Flash the OS
 Flash the downloaded OS image to the microSD card.
